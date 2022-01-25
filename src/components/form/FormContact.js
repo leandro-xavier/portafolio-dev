@@ -11,7 +11,7 @@ export const FormContact = () => {
   return (
       <>
       <h1 id='contacto' className='h1-form' data-aos="zoom-out">Contactame</h1>
-      <form className='formControl' onSubmit={handleSubmit}  data-aos="fade-right"
+      <form className='formControl' onSubmit={handleSubmit}  data-aos="fade-down"
      data-aos-offset="300"
      data-aos-easing="ease-in-sine">
           <div className='title-form'>
@@ -29,7 +29,7 @@ export const FormContact = () => {
         </div>
             <button className='boton-form' type="submit" disabled={state.submitting}>Enviar </button>
     </form>
-    <div className='contact' data-aos="fade-left"
+    <div className='contact' data-aos="fade-down"
      data-aos-offset="300"
      data-aos-easing="ease-in-sine">
         <div className='contact-information'>
@@ -41,9 +41,9 @@ export const FormContact = () => {
         </div>
         <div className='follow us'>
             <h3 className='h3-contact-2'>Redes de contacto</h3>
-            <img className='img-ico-contact' src="img/icons8-linkedin.svg" alt="" />
-            <img className='img-ico-contact' src="img/icons8-whatsapp.svg" alt="" />
-            <img className='img-ico-contact' src="img/icons8-github.svg" alt="" />
+            <a href="https://www.linkedin.com/in/leandro-mariscal-12926117a/"><img className='img-ico-contact' src="img/icons8-linkedin.svg" alt="" /></a>
+            <a href="https://api.whatsapp.com/send?phone=50763902315&text=hola,%20qué%20tal?"><img className='img-ico-contact' src="img/icons8-whatsapp.svg" alt="" /></a>
+            <a href="https://github.com/leandro-xavier"><img className='img-ico-contact' src="img/icons8-github.svg" alt="" /></a>
         </div>
     </div>
     </>

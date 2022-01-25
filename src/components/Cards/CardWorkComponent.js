@@ -36,18 +36,19 @@ export const CardWorkComponent = () => {
             <div id='proyectos' className="container-work">
 
                 <div data-aos="zoom-in" className='proyectos'>
-                    <h1 style={{textAlign:"center"}} >Proyectos</h1>
-                    <p style={{textAlign:"center"}}>Algunos de los proyectos </p>
+                    <h1 style={{textAlign:"center", width:'100%'}} >Proyectos</h1>
+                    <p style={{textAlign:"center", width:'100%'}}>Algunos de los proyectos </p>
                 </div>
 
                     <div className="card-container" data-aos="fade-down" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000">
                         <Card       
                             style={{
                                 backgroundImage: `url(${imageAnime})`,
-                                width: '360px',
+                                width: '350px',
                                  height: '230px',
                                 cursor: 'pointer',
-                                backgroundSize: 'cover'
+                                backgroundSize: 'cover',
+                                boxSizing: 'border-box'
                             }}
                             onClick={redireccionarPagina}
                         />
@@ -63,10 +64,11 @@ export const CardWorkComponent = () => {
 
                                 style={{
                                     backgroundImage: `url(${imagePanawood})`,
-                                    width: '360px',
+                                    width: '350px',
                                     height: '230px',
                                     cursor: 'pointer',
                                     backgroundSize: 'cover',
+                                    boxSizing: 'border-box'
                                 }}
                                 onClick={redireccionarPaginaDos}
                         />
@@ -82,10 +84,11 @@ export const CardWorkComponent = () => {
                         <Card
                                     style={{
                                         backgroundImage: `url(${imageLife})`,
-                                        width: '360px',
+                                        width: '350px',
                                         height: '230px',
                                         cursor: 'pointer',
                                         backgroundSize: 'cover',
+                                        boxSizing: 'border-box'
                                     }}
                                     onClick={redireccionarPaginaTres}
                             />
