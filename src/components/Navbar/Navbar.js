@@ -31,7 +31,7 @@ export const Navbar = () => {
                 </li>
                <li>
                    <AnimationWrapper>
-                        <a href="#">Curriculum</a>
+                        <a href="../../../docs/Leandro-mariscal-final.pdf" download="curriculum de leandro mariscal">Curriculum</a>
                    </AnimationWrapper>
                </li>
                <li>

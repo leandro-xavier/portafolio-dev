@@ -8,8 +8,15 @@
 # testing
 /coverage
 
-# production
 /build
+
+/.firebase
+
+/404.html
+
+/.firebaserc
+
+
 
 # misc
 .DS_Store
