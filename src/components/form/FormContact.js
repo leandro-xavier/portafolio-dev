@@ -11,24 +11,24 @@ export const FormContact = () => {
   return (
       <>
       <h1 id='contacto' className='h1-form' data-aos="zoom-out">Contactame</h1>
-      <form className='formControl' onSubmit={handleSubmit}  data-aos="fade-down"
-     data-aos-offset="300"
-     data-aos-easing="ease-in-sine">
-          <div className='title-form'>
-            <h3>Enviame un mensaje</h3>
-          </div>
-        <div className='email-data'>
-            <label className='email-text' htmlFor="email"> Tu correo electrónico </label>
-            <input className='email-campo' id="email" type="email"  name="email" />
-            <ValidationError prefix="Email" field="email" errors={state.errors}/>
-        </div>
-        <div className='message-data'>
-            <label className='message-text' htmlFor="message"> Escribe tu mensaje </label>
-            <textarea className='message-campo' id="message" name="message" />
-            <ValidationError prefix="Message"  field="message" errors={state.errors}/>
-        </div>
-            <button className='boton-form' type="submit" disabled={state.submitting}>Enviar </button>
-    </form>
+        <form className='formControl' onSubmit={handleSubmit}  data-aos="fade-down"
+                data-aos-offset="300"
+                data-aos-easing="ease-in-sine">
+                    <div className='title-form'>
+                        <h3>Enviame un mensaje</h3>
+                    </div>
+                    <div className='email-data'>
+                        <label className='email-text' htmlFor="email"> Tu correo electrónico </label>
+                        <input className='email-campo' id="email" type="email"  name="email" />
+                        <ValidationError prefix="Email" field="email" errors={state.errors}/>
+                    </div>
+                    <div className='message-data'>
+                        <label className='message-text' htmlFor="message"> Escribe tu mensaje </label>
+                        <textarea className='message-campo' id="message" name="message" />
+                        <ValidationError prefix="Message"  field="message" errors={state.errors}/>
+                    </div>
+                        <button className='boton-form' type="submit" disabled={state.submitting}>Enviar </button>
+        </form>
     <div className='contact' data-aos="fade-down"
      data-aos-offset="300"
      data-aos-easing="ease-in-sine">

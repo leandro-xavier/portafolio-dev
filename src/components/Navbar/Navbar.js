@@ -9,14 +9,14 @@ export const Navbar = () => {
       <>
         <nav>
             <input type="checkbox" id="check" />
-            <label for="check" className='checkbtn'><i className="fas fa-bars"></i></label>
+            <label htmlFor="check" className='checkbtn'><i className="fas fa-bars"></i></label>
             
-            <a href="#" className='enlace'> DEVELOPER</a>
+            <a href="/" className='enlace'> DEVELOPER</a>
 
             <ul className='menu'>
                 <li>
                     <AnimationWrapper>
-                        <a href="#">Inicio</a>
+                        <a href="/">Inicio</a>
                     </AnimationWrapper>
                 </li>
                 <li>
@@ -31,7 +31,7 @@ export const Navbar = () => {
                 </li>
                <li>
                    <AnimationWrapper>
-                        <a href="https://drive.google.com/file/d/1lGBgZNYY_o93ywYc-aLDQD7_tpil0D9t/view?usp=sharing" target="_blank" download="curriculum.pdf">Curriculum</a>
+                        <a href="https://drive.google.com/file/d/1lGBgZNYY_o93ywYc-aLDQD7_tpil0D9t/view?usp=sharing" target="_blank" download="curriculum.pdf " rel="noopener noreferrer">Curriculum</a>
                    </AnimationWrapper>
                </li>
                <li>

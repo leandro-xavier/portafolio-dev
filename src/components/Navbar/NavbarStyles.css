@@ -68,7 +68,7 @@ nav ul li a {
 
 @media (max-width: 858px) {
     .enlace {
-        font-size: 15px;
+        font-size: 30px;
     }
     .checkbtn {
         display: block;
